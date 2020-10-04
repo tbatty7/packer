@@ -1,0 +1,15 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-concat (6.2.0)
+      puppetlabs-stdlib (< 7.0.0, >= 4.13.1)
+      puppetlabs-translate (< 3.0.0, >= 1.0.0)
+    puppetlabs-stdlib (6.3.0)
+    puppetlabs-translate (2.2.0)
+    saz-ssh (6.2.0)
+      puppetlabs-concat (< 7.0.0, >= 2.2.0)
+      puppetlabs-stdlib (< 7.0.0, >= 4.25.0)
+
+DEPENDENCIES
+  saz-ssh (>= 0)
+

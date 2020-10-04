@@ -1,0 +1,16 @@
+{
+	"builders": [{
+		"type": "docker",
+		"image": "ubuntu",
+		"commit": true,
+		"changes": [
+		"USER www-data",
+		"WORKDIR /var/www",
+		"EXPOSE 80"
+		]
+	}],
+	"provisioners": [{
+		"type": "shell",
+		"script": "install.sh"
+	}]
+}
