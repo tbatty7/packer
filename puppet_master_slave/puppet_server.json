@@ -20,8 +20,7 @@
 	},
 	{
 		"type": "puppet-server",
-		"options": "--test",
-		"puppet_server": "puppet-master.test.org",
+		"extra_arguments": "--test",
 		"facter": {
 			"server_role": "webserver"
 		}
